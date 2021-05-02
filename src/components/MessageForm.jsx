@@ -9,20 +9,20 @@ const MessageForm = (props) => {
     const handleSubmit =(event) => {
         event.preventDefault();
 
-        const text = value.trim()
+        const text = value.trim();
 
         if(text.length > 0) sendMessage(creds, chatId, { text });
 
         setValue('');
-    }
+    };
     const handleChange =(event) => {
         setValue(event.target.value);
 
         isTyping(props, chatId);
-    }
+    };
     const handelUpload =(event) => {
-        sendMessage(creds, chatId, { file: event.target.files, text: "" })
-    }
+        sendMessage(creds, chatId, { file: event.target.files, text: '' });
+    };
     return (
         <form className="message-form" onSubmit={handleSubmit}>
             <input
@@ -42,13 +42,13 @@ const MessageForm = (props) => {
                 multiple={false}
                 id="upload-button"
                 style={{ display: 'none' }}
-                onChange={handelUpload}
+                onChange={handelUpload.bind(this)}
             />
             <button type="submit" className="send-button">
                 <SendOutlined className="send-icon" />
             </button>
         </form>
     );
-}
+};
 
 export default MessageForm;
