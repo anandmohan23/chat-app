@@ -1,14 +1,14 @@
-# Chat-app
+# :zap: Chat-app :zap:
 it is react chat app built with react-chat-engine
-## Screenshot
-![Screenshot](https://github.com/anandmohan23/chat-app/blob/main/Screenshot1.jpg)
-![Screenshot](https://github.com/anandmohan23/chat-app/blob/main/Screenshot2.jpg)
-# Try
-## Link
+# Try app :boom:
+## Link :point_down:
+## (https://anandchatapp.netlify.app/)
 try by credentials username=[shahrukh.khan, shruti.hassan, hansika.motwani] <br>
 password= 123123
-
-# Install Procedure
+## Screenshot :camera:
+![Screenshot](https://github.com/anandmohan23/chat-app/blob/main/Screenshot1.jpg)
+![Screenshot](https://github.com/anandmohan23/chat-app/blob/main/Screenshot2.jpg)
+# Install Procedure :question:
 clone the code to local server
 ```
 clone
