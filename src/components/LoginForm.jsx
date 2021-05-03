@@ -38,6 +38,7 @@ const Modal = () => {
           </div>
         </form>
         <h2 className="error">{error}</h2>
+        <p>*Note try username=[shahrukh.khan, shruti.hassan, hansika.motwani]<br></br>password=123123</p>
       </div>
     </div>
 
